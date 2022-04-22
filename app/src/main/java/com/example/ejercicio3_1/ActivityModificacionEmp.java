@@ -37,7 +37,7 @@ public class ActivityModificacionEmp extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //Toast.makeText(ActivityModificacionEmp.this, ""+listaEmpleados.get(i).getId(), Toast.LENGTH_SHORT).show();
-                indice_id = listaEmpleados.get(i).getId();
+                indice_id = listaEmpleados.get(i).getId(); //id exacto
                 enviarDato();
             }
         });

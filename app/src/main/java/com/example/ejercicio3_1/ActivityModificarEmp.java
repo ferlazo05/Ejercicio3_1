@@ -73,7 +73,7 @@ public class ActivityModificarEmp extends AppCompatActivity {
         ArrayAdapter<CharSequence> adp = ArrayAdapter.createFromResource(this, R.array.list_puestos, android.R.layout.simple_spinner_dropdown_item);
         cmb_puesto.setAdapter(adp);
         SQLiteDatabase db = conexion.getWritableDatabase();
-        String[] params = {String.valueOf(id_indice)};
+        String[] params = {String.valueOf(id_indice)}; //conversion de int a string
         String[] fields = {Transactions.empleado_nombres, Transactions.empleado_apellidos,
                 Transactions.empleado_direccion, Transactions.empleado_puesto, Transactions.empleado_edad};
         String WhereCondition = Transactions.empleado_id + "=?";
