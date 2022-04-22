@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ejercicio3_1</string>
+    <string-array name="list_puestos">
+        <item>-Seleccionar-</item>
+        <item>Director Ejecutivo</item>
+        <item>Director de Operaciones</item>
+        <item>Director Comercial</item>
+        <item>Director de Marketing</item>
+        <item>Director de Recursos Humanos</item>
+        <item>Director Financiero</item>
+    </string-array>
+</resources>
