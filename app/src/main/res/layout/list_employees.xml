@@ -31,7 +31,7 @@
                 android:layout_gravity="center"
                 android:paddingLeft="14dp"
                 android:paddingRight="14dp"
-                android:src="@drawable/documenticon" />
+                android:src="@drawable/usertwo" />
 
             <LinearLayout
                 android:id="@+id/linearLayout"
